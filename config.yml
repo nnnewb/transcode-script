@@ -1,0 +1,38 @@
+container:
+  - mp4
+  - mkv
+
+video_codec:
+  - h264_amf
+  - h264_nvenc
+  - h264_qsv
+  - libx264
+  - libx264rgb
+  - hevc_amf
+  - hevc_nvenc
+  - hevc_qsv
+  - libx265
+
+audio_codec:
+  - aac
+
+hardware_accelerate:
+  - dxva2
+  - d3d11va
+  - cuda
+  - qsv
+  - cuvid
+
+detect_source:
+  - mkv
+  - mp4
+  - flv
+  - ogv
+  - mpeg
+  - mpg
+  - mov
+  - rm
+  - rmvb
+  - 3gp
+  - wmv
+  - avi
